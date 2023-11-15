@@ -1,0 +1,119 @@
+.jobby-app-container {
+  background-color: white;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  box-shadow: 20px 20px 20px 20px rgba(41, 39, 39, 0.301);
+}
+
+.aa{
+  background-color: rgb(255, 0, 170);
+}
+
+.form-container {
+  display: flex;
+  /* grid-template-rows: 1fr 1fr;
+  grid-gap: 16px; */
+  flex-direction: column; 
+   padding: 10px;
+   width: 280px; 
+   
+   grid-row: auto;
+}
+/* .signup-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 16px;
+} */
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  width: 200px;
+}
+
+.col-6{
+  margin: 0%;
+  width: 100px;
+  
+}
+.label {
+  color: #121314;
+  font-family: 'roboto';
+  margin: 5px;
+  font-size: 16px;
+  
+}
+
+.user-input {
+  color: #101111;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #b6c5ff;
+  background: transparent;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid black;
+ 
+}
+
+.login-button {
+  background-color: #6366f1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  color: #f1f5f9;
+}
+
+.error-msg{
+  color: red;
+  font-family: "Roboto";
+}
+
+.btn-off{
+  background-color: #535369;
+  
+}
+.button_icon{
+  border: none;
+  background: none;
+  color: violet; 
+}
+.password-container{
+
+  color: #141516;
+  border: 1px solid #b6c5ff;
+  background: transparent;
+  border-radius: 4px;
+  outline: none;
+  padding: 4px;
+  margin: 4px;
+
+}
+
+.userpassword{
+ background: none;
+ border: none;
+ outline: none;
+ color:rgb(37, 36, 36);
+}
+
+.toggle-button{
+  border: 0;
+}
